@@ -4,7 +4,7 @@ import { dbConnection } from "./database/dbConntection.js";
 import cors from "cors";
 import userRouter from "./routers/messageRouter.js";
 import path from "path";
-import { fileURLToPath } from "url"; // For ES Modules
+import { fileURLToPath } from "url"; 
 
 // Initialize dotenv
 // dotenv.config({ path: "./config/config.env" });
